@@ -1,3 +1,6 @@
+create_partial_mirror/.hydra/*
+create_partial_mirror/config.yaml
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

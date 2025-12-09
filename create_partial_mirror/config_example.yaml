@@ -1,0 +1,27 @@
+hydra:
+  run:
+    # keep Hydra from creating a new working dir for each run; makes output easier to read
+    dir: .
+
+earthdata_access:
+  edl_token: "your_edl_token"
+
+selection:
+  date_min: '2025-11-01'
+  date_max: '2025-11-01'
+
+observable_vars:
+  - "/FS/Latitude"
+  - "/FS/Longitude"
+  - "/FS/VER/sigmaZeroNPCorrected"
+  - "/FS/ScanTime/Year"
+  - "/FS/ScanTime/Month"
+  - "/FS/ScanTime/DayOfMonth"
+  - "/FS/ScanTime/DayOfYear"
+  - "/FS/ScanTime/Hour"
+  - "/FS/ScanTime/Minute"
+  - "/FS/ScanTime/Second"
+  - "/FS/ScanTime/MilliSecond"
+
+partial_mirror:
+  rootdir: "~/b2_remote_sensing/gpm_dpr_partial_mirror"
