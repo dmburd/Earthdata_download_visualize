@@ -4,7 +4,8 @@ hydra:
     dir: .
 
 earthdata_access:
-  edl_token: "your_edl_token"
+  username: "your_edl_username"
+  password: "your_edl_password"
 
 selection:
   date_min: '2025-11-01'
