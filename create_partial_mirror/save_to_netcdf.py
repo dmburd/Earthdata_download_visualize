@@ -82,7 +82,7 @@ def main(cfg: DictConfig) -> None:
         to_save = xr.Dataset()
         var_name_underscores = [
             var_name_slashes[1:].replace('/', '_')
-            for var_name_slashes in cfg.observable_vars
+            for var_name_slashes in cfg.dataset_names
         ]
         to_save = ds_xr[var_name_underscores]
 
@@ -96,4 +96,4 @@ if __name__ == "__main__":
 
 
 ## cd create_partial_mirror
-## python main.py
+## python save_to_netcdf.py

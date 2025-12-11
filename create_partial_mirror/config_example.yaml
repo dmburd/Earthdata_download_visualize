@@ -11,7 +11,7 @@ selection:
   date_min: '2025-11-01'
   date_max: '2025-11-01'
 
-observable_vars:
+dataset_names:
   - "/FS/Latitude"
   - "/FS/Longitude"
   - "/FS/VER/sigmaZeroNPCorrected"

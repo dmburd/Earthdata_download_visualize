@@ -4,3 +4,4 @@
 
 
 ## Python scripts
+1. The folder [create_partial_mirror/](create_partial_mirror/) contains the script for downloading and saving the selected arrays from the tracks for specified dates. See the [README](create_partial_mirror/README.md) in that folder.
